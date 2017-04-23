@@ -1,3 +1,57 @@
+# PyColor
+
+## Description:
+
+PyColor is a Python library for working with html and css color code in Python with ease. User can define a color name, the corresponding RGB hexcode srting and RGBA and RGB tuples will be resolved from a wide collection of built in colors.
+
+User can also specify the custom color code for custom user defined colors by using either RGB hexcode string or tuple containing RGB hexcode value (R,G,B) or RGBA hexcode value (R,G,B,A). RGBA format is needed when user wants to add transparency with the color. The transparency value is a floating point and must be within the range 0.0 to 1.0 where 0.0 defines fully opaque and 1.0 defines fully transparent color.
+
+## Example:
+`
+RedColor = PyColor("Red")
+print(RedColor.name)             # will display 'Red'
+print(RedColor.rgb_hex_string)   # will display #FF0000
+print(RedColor.rgb_hex_tuple)    # will display (255,0,0)
+print(RedColor.rgba_hex_tuple)   # will display (255,0,0,0.0)
+
+# Update the color
+RedColor.update_color('Blue', 1.0)
+print(RedColor.name)             # will display 'Blue'
+print(RedColor.rgb_hex_string)   # will display #0000FF
+print(RedColor.rgb_hex_tuple)    # will display (0,0,255)
+print(RedColor.rgba_hex_tuple)   # will display (0,0,255,1.0)
+
+`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/farshad112/PyColor/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
