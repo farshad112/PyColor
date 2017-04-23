@@ -8,19 +8,19 @@ User can also specify the custom color code for custom user defined colors by us
 
 ## Example:
 
-`RedColor = PyColor("Red")`
-`print(RedColor.name)             # will display 'Red'`
-`print(RedColor.rgb_hex_string)   # will display #FF0000`
-`print(RedColor.rgb_hex_tuple)    # will display (255,0,0)`
-`print(RedColor.rgba_hex_tuple)   # will display (255,0,0,0.0)`
-
-`# Update the color`
-`RedColor.update_color('Blue', 1.0)`
-`print(RedColor.name)             # will display 'Blue'`
-`print(RedColor.rgb_hex_string)   # will display #0000FF`
-`print(RedColor.rgb_hex_tuple)    # will display (0,0,255)`
-`print(RedColor.rgba_hex_tuple)   # will display (0,0,255,1.0)`
-
+`RedColor = PyColor("Red")` <br />
+`print(RedColor.name)             # will display 'Red'` <br />
+`print(RedColor.rgb_hex_string)   # will display #FF0000` <br />
+`print(RedColor.rgb_hex_tuple)    # will display (255,0,0)` <br />
+`print(RedColor.rgba_hex_tuple)   # will display (255,0,0,0.0)` <br />
+<br />
+`# Update the color` <br />
+`RedColor.update_color('Blue', 1.0)` <br />
+`print(RedColor.name)             # will display 'Blue'` <br />
+`print(RedColor.rgb_hex_string)   # will display #0000FF` <br />
+`print(RedColor.rgb_hex_tuple)    # will display (0,0,255)` <br />
+`print(RedColor.rgba_hex_tuple)   # will display (0,0,255,1.0)` <br />
+<br />
 
 
 
